@@ -1,0 +1,15 @@
+# Local/editor files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Typical ROS/catkin build outputs (not included in this recovery)
+build/
+devel/
+install/
+log/
+
+# Large datasets should not be committed
+*.bag
+*.db3
